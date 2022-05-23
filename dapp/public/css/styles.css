@@ -1,0 +1,340 @@
+  h1{
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  h2{
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 300;
+  }
+  a{
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  body{
+    font-family: "Libre Franklin",sans-serif;
+    color: white;
+  }
+  .sitename{
+    color: black;
+  }
+  .metamask-logo{
+    width: 35px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .nav-link{
+     color: white;
+     font-family: 'Miriam Libre', sans-serif;
+     padding-right: 10px;
+     font-size: 1.3rem;
+  }
+  .nav-item{
+    padding: 0 10px;
+  }
+  .nav-link:hover{
+      color: rgb(138, 132, 132);
+  }
+  .brandimg{
+      width: 80px;
+      padding-left: 0px;
+  }
+  .navbar-toggle .icon-bar {
+      background-color: #fff;
+  }
+  .navbar-toggle{
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid transparent;
+  }
+  nav{
+      background-color: #ffffff;
+  }
+  img{
+      width: 100%;
+  }
+  #mid-start{
+    padding: 3% 15%;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .main-img{
+    width: 80%;
+  }
+  .navbar-white{
+    background-color: #fff;
+  }
+  #head{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .navbar-custom {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .discover{
+    padding: 3% 0;
+    /*background: linear-gradient(90deg, rgba(200,0,254,1) 0%, rgba(0,106,195,1) 39%, rgba(0,209,251,1) 67%);*/
+    text-align: center;
+    margin-left: 0;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #Explorer{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 10rem;
+  }
+  #YourGrants{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 10rem;
+  }
+  #YourContributions{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 10rem;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  .discover-icon{
+    color:#6F3FF5;
+  }
+  .discover-icon:hover{
+    color: #ffc000;
+  }
+  .skill1{
+  padding-top: 20px;
+  padding-right: 0%;
+  padding-left: 0%;
+  } 
+  .skill2{
+    padding-top: 20px;
+    padding-right: 0%;
+  padding-left: 0%;
+  }
+  .skill3{
+    padding-top: 20px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .discover-link{
+    color: white;
+    font-family: 'Miriam Libre', sans-serif;
+  }
+  .buttons-discover{
+  padding-top: 3%;
+  }
+  .btn-discover-1{
+  margin: 5% 3% 5% 0 ;
+  }
+  .btn-primary{
+    background-color: #6F3FF5;
+  }
+  .btn-outline-primary{
+    color:#6F3FF5;
+  }
+  .btn-outline-primary:hover{
+    background-color: #6F3FF5;
+  }
+
+  #Create h2{
+    text-align: center;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+  #Create{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .create-container{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .content form .user-details{
+    display: inline;
+    margin: 20px 0 12px 20px;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    border-color: #9b59b6;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  }
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+  
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   }
+   form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+  
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    textarea {
+      white-space: start;
+      text-align: justify;
+      padding-left: 20px;
+      border-radius: 5px;
+      border-color: #9b59b6;
+  }
+  .Card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+  }
+  .Card a{
+    font-family: 'Miriam Libre', sans-serif;
+  }
+  .Card input{
+    padding-top: 5px;
+    padding-bottom: 4px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border-color: #9b59b6;
+  }
+  .Card button{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-color: #9b59b6;
+  }
+
+  #grants-title{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #yourgrants-title{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #yourcontributions-title{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  hr{
+    border-style: dotted;
+    border-width: 5px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    width: 5%;
+    color: black;
+}
+  
