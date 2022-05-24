@@ -14,13 +14,13 @@ function Navbar() {
   const [CTarget, setCTarget] = useState([]);
   const [Ccurrent, setCcurrent] = useState([]);
   const [currentMilestone, setCurrentMilestone] = useState([]);
-  const [approvalVotes, setApprovalVotes] = useState(null);
+  const [approvalVotes, setApprovalVotes] = useState([]);
   const [campaignStatus, setCampaignStatus] = useState([]);
   const [total, setTotal] = useState();
   const [owners, setOwners] = useState([]);
   const [boolOwners, setBoolOwners] = useState([]);
   const [investors, setInvestors] = useState(null);
-  const [investorsCount, setInvestorsCount] = useState(null);
+  const [investorsCount, setInvestorsCount] = useState([]);
   const [boolInvestors, setBoolInvestors] = useState([]);
   
   const stylename = {
@@ -60,8 +60,8 @@ function Navbar() {
     setCurrentMilestone((currentMilestone) => [...currentMilestone, currMilestone])
     setCampaignStatus((campaignStatus) => [...campaignStatus, CStatus])
     setInvestors(inv)
-    setApprovalVotes(votes)
-    setInvestorsCount(invCount)
+    setApprovalVotes((approvalVotes) => [...approvalVotes, votes])
+    setInvestorsCount((investorsCount) => [...investorsCount, invCount])
 
     if(Owners.includes(accounts[0])){
       var isOW = "true";
@@ -273,25 +273,15 @@ function Navbar() {
           <a style={{fontSize:"15px"}}>{web3.utils.fromWei(Ccurrent[index], 'ether')} <i className="fa-brands fa-ethereum"></i></a> <br />
           <a>Current Milestone</a> <br />
           <a style={{fontSize:"15px"}}>{currentMilestone[index]}/4</a> <br />
-          <input type="text" onChange={setContribution} name="Contribution" required/>
-          <button onClick={async function(){ 
-            if (Ccurrent[index] !== CTarget[index]){
-            {await cfContract.methods.InvestInCampaign(index).send({
-            from : address,
-            value: web3.utils.toWei(contribution, 'ether')
-          })}
-            }
-            else{
-              alert("Target has been met!")
-            }
-          }}><a style={{fontSize: "20px"}}>Fund</a></button> <br />
+          <a>Withdraw Approval Votes</a> <br />
+          <a style={{fontSize:"15px"}}>{approvalVotes[index]}/{investorsCount[index]}</a> <br />
           <button onClick={async function(){ 
             {await cfContract.methods.updateMilestones(index).send({
             from : address
           })}}}>
           <a style={{fontSize: "20px"}}>+ Milestone</a></button>
           <button onClick={async function(){ {
-            if(approvalVotes[index] >= investors[index]/2 && approvalVotes !== 0){
+            if(approvalVotes[index] >= investorsCount[index]/2 && approvalVotes !== 0){
             await cfContract.methods.retrieveMoney(index).send({
             from : address
           })}
@@ -315,6 +305,7 @@ function Navbar() {
       <div className="row container-fluid">
       <hr/> 
       <h2 id="grants-title">Grant Explorer</h2>
+  
   {CName.map((Item, index) => {
         return (
           <div style={{display: "inline-block"}} className="col-lg-4 Card">

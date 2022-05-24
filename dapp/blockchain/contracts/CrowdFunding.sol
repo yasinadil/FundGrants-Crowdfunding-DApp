@@ -81,10 +81,7 @@ contract crowdfunding{
         if (CampaignsList[indexofcampaign].recipient == msg.sender && CampaignsList[indexofcampaign].fundscollected == true && keccak256(bytes(CampaignsList[indexofcampaign].status)) == keccak256(bytes(inprogress))){
             if (CampaignsList[indexofcampaign].approvalcount >= CampaignsList[indexofcampaign].investorsCount/2){
                 uint currentmoney = CampaignsList[indexofcampaign].currentfunds;
-                if (CampaignsList[indexofcampaign].milestones == 2 || CampaignsList[indexofcampaign].milestones == 3 ){
                     CampaignsList[indexofcampaign].recipient.transfer(currentmoney);
-                }
-               
             }
         }
     }
