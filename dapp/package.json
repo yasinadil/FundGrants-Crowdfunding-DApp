@@ -1,6 +1,7 @@
 {
   "name": "dapp",
   "version": "0.1.0",
+  "homepage": "https://yasinadil.github.io/FundGrants-Crowdfunding-DApp",
   "private": true,
   "dependencies": {
     "@metamask/detect-provider": "^1.2.0",
@@ -26,7 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/contracts/CrowdFunding.sol --output-dir blockchain/build"
+    "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/contracts/CrowdFunding.sol --output-dir blockchain/build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

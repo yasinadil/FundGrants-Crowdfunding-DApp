@@ -31,6 +31,7 @@ function Navbar() {
   const web3 = new Web3(window.ethereum)
 
   useEffect(() => {
+    alert("Connect your Ropsten Testnet Wallet")
     async function load (){
     const web3 = new Web3(window.ethereum)
     window.ethereum.request({ method: "eth_requestAccounts" })
